@@ -17,9 +17,11 @@ Repository hochladen
 - mit dem Befehl "git init" ein Repository initialisieren
 - mit den Befehlen "git add" und "git commit" einen Commit erstellen  
 - die Befehle "git remote add origin https://github.com/stephanhagn/sortingline.git" und anschließend "git push -u origin master" laden
-  das lokale Repository auf das GitHub "sortingline" Repository von Stephan Hagn hoch
+  das lokale Repository auf das GitHub "sortingline" Repository von Stephan Hagn hoch, dies ist jedoch nur beim ersten Hochladen notwendig
+- wurde schon etwas auf das gewünschte GitHub Repository hochgeladen wird der Befehl "git push" verwendet 
 - falls nötig den Usernamen und das Passwort des eigenen GitHub Accounts eingeben
 - in das GitHub Repository wechseln und die Seite akutalisieren
+
 
 Repository klonen
 - Git CMD öffnen
