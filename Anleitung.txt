@@ -7,7 +7,7 @@ Repository auf GitHub erstellen
 - Repository einen Namen geben, entscheiden ob öffentlich oder privat und dann auf den Botton "Create" klicken
 
 
-Zugang zu Repository
+Zugang zu Repository von anderen Personen
 - der Zugang auf das "sortingline" Repository muss vorab vom Ersteller genehmigt werden, dafür wird der GitHub Username benötigt
 
 
@@ -23,11 +23,11 @@ Repository hochladen
 - in das GitHub Repository wechseln und die Seite akutalisieren
 
 
-Repository klonen/Daten heruntrladen
+Repository klonen/Daten herunterladen
 - Git CMD öffnen
-- in den loklen Ordenr steuern in welchen das Repository geklont werden soll
-- Befehl "git clone https://github.com/stephanhagn/sortingline.git" klont das Repository "sortingline" auf den lokalen Rechner
-- holt man weitere Daten aus dem entfernten Repository von GitHub verwendet man den Befehl "git fetch origin", dieser zieht alle Daten, 
+- in den loklen Ordner steuern, in welchen das Repository geklont werden soll
+- der Befehl "git clone https://github.com/stephanhagn/sortingline.git" klont das entfernte Repository "sortingline" auf den lokalen Rechner
+- holt man weitere Daten aus dem entfernten Repository von GitHub, verwendet man den Befehl "git fetch origin", dieser zieht alle Daten, 
   welche seit dem Klonen dem Repository zugefügt wurden, auf den lokalen Rechner herunter
 - mit dem fetch Befehl werden die Daten jedoch nicht mit den Daten auf dem PC vermischt
 - der Befehl "git pull" bzw. ab Version 2.27 "pull.rebase" vermischt die eigenen Daten mit den Heruntergeladenen aus dem Repository von GitHub
