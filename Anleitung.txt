@@ -32,3 +32,9 @@ Repository klonen/Daten herunterladen
 - mit dem fetch Befehl werden die Daten jedoch nicht mit den Daten auf dem PC vermischt
 - der Befehl "git pull" bzw. ab Version 2.27 "pull.rebase" vermischt die eigenen Daten mit den Heruntergeladenen aus dem Repository von GitHub
 
+
+Dateien erstellen/umbennen/verschieben
+- wenn in einem Ordner, welcher ein git Repository enthält, ein Dokument erstellt, umbennant oder verschoben wird erkennt dies git über den Befehl
+ "git status"
+- der Name des Dokuments wird von git rot angezeigt und kann anschließend commitet werden
+
