@@ -7,19 +7,21 @@ Repository auf GitHub erstellen
 - Repository einen Namen geben, entscheiden ob öffentlich oder privat und dann auf den Botton "Create" klicken
 
 
-Zugang zu Repository von anderen Personen
+Zugang zu Repository für andere Personen
 - der Zugang auf das "sortingline" Repository muss vorab vom Ersteller genehmigt werden, dafür wird der GitHub Username benötigt
 - anschließend erhält die Person eine E-Mail mit Bestätigungsbotton
 
 
 Repository hochladen
 - Git CMD öffnen 
-- in den lokalen Ordner steuern, indem sich das Repositiy befinden soll
+- in den lokalen Ordner steuern, indem sich das Repositiy befinden soll: "cd [Name der Datei]"
 - mit dem Befehl "git init" ein Repository initialisieren
-- mit den Befehlen "git add" und "git commit" einen Commit erstellen  
+- mit den Befehlen "git add [Name der Datei]" und "git commit" einen Commit erstellen  
 - die Befehle "git remote add origin https://github.com/stephanhagn/sortingline.git" und anschließend "git push -u origin master" laden
   das lokale Repository auf das GitHub "sortingline" Repository von Stephan Hagn hoch, dies ist jedoch nur beim ersten Hochladen notwendig
-- wurde schon etwas auf das gewünschte GitHub Repository hochgeladen wird der Befehl "git push" verwendet 
+- wurde schon etwas auf das gewünschte GitHub Repository hochgeladen wird der Befehl "git push" verwendet
+- wurden von einer anderen Person Dateien auf GitHub gepusht, welche nicht auf dem lokalen Rechner sind, müssen diese zuvor  
+  mit dem Befehl "git pull" heruntergezogen werden 
 - falls nötig den Usernamen und das Passwort des eigenen GitHub Accounts eingeben
 - in das GitHub Repository wechseln und die Seite akutalisieren
 
@@ -28,7 +30,7 @@ Repository klonen/Daten herunterladen
 - Git CMD öffnen
 - in den loklen Ordner steuern, in welchen das Repository geklont werden soll
 - der Befehl "git clone https://github.com/stephanhagn/sortingline.git" klont das entfernte Repository "sortingline" auf den lokalen Rechner
-- holt man weitere Daten aus dem entfernten Repository von GitHub, verwendet man den Befehl "git fetch origin", dieser zieht alle Daten, 
+- holt man weitere Dateien aus dem entfernten Repository von GitHub, verwendet man den Befehl "git fetch origin", dieser zieht alle Daten, 
   welche seit dem Klonen dem Repository zugefügt wurden, auf den lokalen Rechner herunter
 - mit dem fetch Befehl werden die Daten jedoch nicht mit den Daten auf dem PC vermischt
 - der Befehl "git pull" bzw. ab Version 2.27 "pull.rebase" vermischt die eigenen Daten mit den Heruntergeladenen aus dem Repository von GitHub
