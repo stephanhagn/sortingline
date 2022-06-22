@@ -9,6 +9,7 @@ Repository auf GitHub erstellen
 
 Zugang zu Repository von anderen Personen
 - der Zugang auf das "sortingline" Repository muss vorab vom Ersteller genehmigt werden, dafür wird der GitHub Username benötigt
+- anschließend erhält die Person eine E-Mail mit Bestätigungsbotton
 
 
 Repository hochladen
@@ -36,5 +37,5 @@ Repository klonen/Daten herunterladen
 Dateien erstellen/umbennen/verschieben
 - wenn in einem Ordner, welcher ein git Repository enthält, ein Dokument erstellt, umbennant oder verschoben wird erkennt dies git über den Befehl
  "git status"
-- der Name des Dokuments wird von git rot angezeigt und kann anschließend commitet werden
+- der Name des Dokuments wird von git rot angezeigt und kann anschließend commitet werden 
 
