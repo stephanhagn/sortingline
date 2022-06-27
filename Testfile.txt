@@ -1,1 +1,2 @@
-Geändert in Anleitung.
+Geschrieben in GIT und geändert in Anleitung
+
