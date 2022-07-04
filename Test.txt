@@ -1,1 +1,2 @@
+NEIN
 Teste ob Git dieses Dokument erkennt. 
