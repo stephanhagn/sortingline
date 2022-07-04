@@ -1,6 +1,6 @@
-Pluto ist ein gelber Hund!
+
 Geschrieben in GIT und geändert in Anleitung, erstellt von Stephan und gelesen von Mickey Maus. Vielen Dank Walt Disney!
-Donald Duck und Daisy Duck!
+
 
 
 
