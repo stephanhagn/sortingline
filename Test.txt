@@ -1,2 +1,7 @@
+<<<<<<< HEAD
 NEIN
 Teste ob Git dieses Dokument erkennt. 
+=======
+Teste ob Git dieses Dokument erkennt. 
+Haie
+>>>>>>> ff8ab1aadc5330c1ec2d4b2dc7935fc1701c0f4d
